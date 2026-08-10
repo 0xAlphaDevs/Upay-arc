@@ -34,11 +34,11 @@ No simple, native way for merchants to accept stablecoins and settle on Arc, jus
 
 ### 1. One-Tap Checkout
 
-Pay with USDC from whatever chain it lives on. No bridging, no network switching, no chain selection screen — Unified Balance reads the customer's USDC balance across every supported source chain and deposits from whichever chain(s) cover the amount, splitting automatically if needed.
+Pay with USDC from whatever chain it lives on. No bridging, no network switching, no chain selection screen, Unified Balance reads the customer's USDC balance across every supported source chain and deposits from whichever chain(s) cover the amount, splitting automatically if needed.
 
 ### 2. Drop-In Pay Button
 
-`<UPayButton />` — a Stripe-style component a merchant embeds on any storefront in minutes, published as [`upay-arc-sdk`](https://www.npmjs.com/package/upay-arc-sdk) on npm. Just a publishable API key and an amount; no custom checkout flow to build.
+`<UPayButton />` , a Stripe-style component a merchant embeds on any storefront in minutes, published as [`upay-arc-sdk`](https://www.npmjs.com/package/upay-arc-sdk) on npm. Just a publishable API key and an amount; no custom checkout flow to build.
 
 ### 3. Merchant-Defined Settlement
 
@@ -50,12 +50,12 @@ The merchant sets their settlement token (USDC or EURC) once, from a dashboard, 
 
 **Components**
 
-- **UPay Button / SDK** — embeddable React component, published as [`upay-arc-sdk`](https://www.npmjs.com/package/upay-arc-sdk).
-- **UPay Checkout** — hosted modal (embedded iframe): Reown wallet connect → deposit → spend → receipt.
-- **UPay API** — checkout sessions, settlement config, API keys (Next.js API routes + Supabase).
-- **Engine** — `@circle-fin/app-kit` (Unified Balance) with a viem adapter for EVM wallets.
-- **Wallet layer** — Reown AppKit (`@reown/appkit` + `@reown/appkit-adapter-wagmi`), custom Arc Testnet chain definition (chain ID `5042002`).
-- **Merchant dashboard** — payments, API keys, settlement settings, Treasury / Borrow (soon).
+- **UPay Button / SDK** : embeddable React component, published as [`upay-arc-sdk`](https://www.npmjs.com/package/upay-arc-sdk).
+- **UPay Checkout** : hosted modal (embedded iframe): Reown wallet connect → deposit → spend → receipt.
+- **UPay API** : checkout sessions, settlement config, API keys (Next.js API routes + Supabase).
+- **Engine** : `@circle-fin/app-kit` (Unified Balance) with a viem adapter for EVM wallets.
+- **Wallet layer** : Reown AppKit (`@reown/appkit` + `@reown/appkit-adapter-wagmi`), custom Arc Testnet chain definition (chain ID `5042002`).
+- **Merchant dashboard** : payments, API keys, settlement settings, Treasury / Borrow (soon).
 
 ## Links
 
@@ -63,6 +63,7 @@ The merchant sets their settlement token (USDC or EURC) once, from a dashboard, 
 - SDK: [upay-arc-sdk](https://www.npmjs.com/package/upay-arc-sdk)
 - Demo Store: [demo.upay.finance](https://demo.upay.finance)
 - Presentation: [Pitch deck](https://canva.link/yzcjg8tfjsaobdtadd)
+- Demo Video: [https://youtu.be/xcRNq2OW5QA](https://youtu.be/xcRNq2OW5QA)
 
 ## Future Vision
 
