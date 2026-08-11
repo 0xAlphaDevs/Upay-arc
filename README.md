@@ -62,7 +62,7 @@ The merchant sets their settlement token (USDC or EURC) once, from a dashboard, 
 - Deployed URL: [www.upay.finance](https://www.upay.finance)
 - SDK: [upay-arc-sdk](https://www.npmjs.com/package/upay-arc-sdk)
 - Demo Store: [demo.upay.finance](https://demo.upay.finance)
-- Presentation: [Pitch deck](https://canva.link/yzcjg8tfjsaobdtadd)
+- Presentation: [Pitch deck](https://canva.link/yzcjg8tfjsaobdt)
 - Demo Video: [https://youtu.be/xcRNq2OW5QA](https://youtu.be/xcRNq2OW5QA)
 
 ## Future Vision
